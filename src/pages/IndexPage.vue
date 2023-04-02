@@ -48,7 +48,7 @@ export default {
       isLoading: true,
       page: null,
       pageCount: 1,
-      pdfSource: 'src/assets/test.pdf',
+      pdfSource: 'src/assets/test2.pdf',
       showAllPages: false,
     };
   },
@@ -70,6 +70,9 @@ export default {
 };
 </script>
 <style>
+.app-content {
+  border: 1px solid red;
+}
 .blokje {
   position: absolute;
   z-index: 20;
