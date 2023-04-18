@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div w-20 h-20 bg-blue top-20 class="box"></div>
+    <div w-20 h-20 bg-pink top-20 class="box"></div>
     <div w-full flex>
       <vue-pdf-embed row :source="source1" w-300 />
     </div>
